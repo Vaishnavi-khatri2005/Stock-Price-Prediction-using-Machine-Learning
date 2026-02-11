@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-"""
-Quick Start Script
-Run this script to set up and execute the complete pipeline
-"""
-
 import os
 import sys
 from datetime import datetime
@@ -83,3 +77,4 @@ def main():
 if __name__ == "__main__":
     success = main()
     sys.exit(0 if success else 1)
+
