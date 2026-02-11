@@ -1,0 +1,138 @@
+# Stock Price Prediction - .gitignore
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.Thumbs.db
+*.log
+.env
+.env.local
+
+# Data & Models
+data/*.csv
+models/*.pkl
+models/*.h5
+models/*.pt
+*.joblib
+
+# Visualizations
+visualizations/*.png
+visualizations/*.jpg
+visualizations/*.pdf
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Config (if contains secrets)
+config_local.py
+secrets.py
+.credentials
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Package
+dist/
+build/
+*.tar.gz
+*.zip
+
+# IDE Specific
+.vscode/settings.json
+.idea/workspace.xml
+.DS_Store
+
+# Environment variables
+.env
+.env.production
+API_KEY.txt
+secrets/
+
+# Large files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Misc
+.python-version
+.vscode/
+*.pyc
+.mypy_cache/
+.dmypy.json
+dmypy.json
